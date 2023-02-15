@@ -7,3 +7,43 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+header, header nav {
+    height: 70px;
+}
+
+
+main {
+    height: calc(100vh - 70px);
+}
+
+.content {
+    width: calc(100vw - 60px);
+}
+
+aside {
+    height: 100%;
+    width: 60px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+}
+
+#dropdown {
+    left: -140px;
+}
+
+.logo-small {
+    height: 40px;
+}
+
+@media screen and (min-width: 576px) {
+    aside {
+        width: 200px;
+    }
+    .content {
+        width: calc(100vw - 200px);
+    }
+}
