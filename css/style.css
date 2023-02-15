@@ -28,6 +28,7 @@ aside {
     background-color: #051e34;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     min-height: 400px;
 }
 
@@ -39,11 +40,15 @@ aside {
     height: 40px;
 }
 
+aside {
+    font-size: 25px;
+}
+
 @media screen and (min-width: 576px) {
     aside {
-        width: 200px;
+        width: 180px;
     }
     .content {
-        width: calc(100vw - 200px);
+        width: calc(100vw - 180px);
     }
 }
