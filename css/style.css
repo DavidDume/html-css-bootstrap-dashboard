@@ -57,6 +57,10 @@ aside {
     background-color: #1b72e8;
 }
 
+td img {
+    max-width: 35px;
+}
+
 @media screen and (min-width: 576px) {
     aside {
         width: 180px;
