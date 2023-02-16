@@ -77,11 +77,129 @@
 
         <div class="content">
            <div class="topbar container-fluid">
-                <div class="row">
-                    <div class="box col-6"></div>
-                    <div class="box col-3"></div>
-                    <div class="box col-3"></div>
+                <div class="row align-items-center">
+                    <div class="col-md-6 py-2 order-1 order-sm-0">
+                        <div class="d-flex align-items-center">
+                            <h1 class="text-white me-2">Boolean</h1>
+                            <span class="badge rounded-pill ms-bg-blue">Piano Base</span>
+                        </div>
+                        <div>
+                            <span class="badge rounded-pill ms-bg-blue">3 app</span>
+                            <span class="text-white">>></span>
+                            <span class="badge rounded-pill ms-bg-blue d-none d-lg-inline-block">Boolean mobile app</span>
+                            <span class="badge rounded-pill ms-bg-blue d-none d-lg-inline-block">Boolean web app</span>
+                            <span class="badge rounded-pill ms-bg-blue d-none d-lg-inline-block">Boolean blog app</span>
+                            <span class="badge rounded-pill ms-bg-blue d-lg-none">
+                                <i class="fa-regular fa-plus text-white"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-2 order-2 order-sm-1">
+                        <span class="text-white d-block">Studenti online negli ultimi 30 minuti</span>
+                        <span class="text-white fs-3 d-block">125</span>
+                    </div>
+                    <div class="col-md-2 order-0 order-sm-3">
+                        <span class="text-white">Nuovo Studente</span>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <i class="fa-regular fa-square-plus text-white fs-4"></i>
+                        </button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <form>
+                                    <div class="mb-3 row">
+                                        <div class="col-6">
+                                            <label for="name" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="name">
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="surname" class="form-label">Cognome</label>
+                                            <input type="text" id="surname" class="form-control" >
+                                        </div>
+                                         
+                                    </div>
+                                    <div class="mb-3 row">
+                                        <div class="col-6">
+                                            <label for="name" class="form-label">Email</label>
+                                            <div class="input-group flex-nowrap">
+                                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                                <input type="email" class="form-control" placeholder="Email" aria-label="email" aria-describedby="addon-wrapping">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="password" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                         
+                                    </div>
+                                    <div class="mb-3 row">
+                                        <div class="col-6">
+                                            <label for="name" class="form-label">Email</label>
+                                            <div class="input-group flex-nowrap">
+                                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                                <input type="email" class="form-control" placeholder="Email" aria-label="email" aria-describedby="addon-wrapping">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="password" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="password">
+                                        </div>   
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="address" class="form-label">Indirizzo</label>
+                                        <input type="text" class="form-control" id="address">
+                                    </div>
+                                    
+                                    <div class="mb-3 row">
+                                        <div class="col-5">
+                                            <label for="city" class="form-label">Città</label>
+                                            <input type="text" class="form-control" id="city">
+                                        </div>
+                                        <div class="col-4">
+                                            <label for="password" class="form-label">Stato</label>
+                                            <select class="form-select">
+                                                <option selected></option>
+                                                <option value="1">Francia</option>
+                                                <option value="2">Germania</option>
+                                                <option value="3">Italia</option>
+                                              </select>
+                                        </div>
+                                        <div class="col-3">
+                                            <label for="cap" class="form-label">CAP</label>
+                                            <input type="text" class="form-control" id="cap">
+                                        </div>      
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="file" class="form-label">Foto</label>
+                                        <input type="file" class="form-control" id="file">
+                                      </div>
+
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Selezione per proseguire</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Salva</button>
+                                    <button type="reset" class="btn btn-warning">Svuota</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+           </div>
+           <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6">
+
+                </div>
+                <div class="col-12 col-md-6">
+                    
+                </div>
+            </div>
            </div>
         </div>
     </main>

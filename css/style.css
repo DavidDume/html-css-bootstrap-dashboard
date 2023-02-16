@@ -12,6 +12,10 @@ header, header nav {
     height: 70px;
 }
 
+.ms-bg-blue {
+    background-color: #165bba;
+}
+
 .box {
     height: 100px;
     background-color: blueviolet;
