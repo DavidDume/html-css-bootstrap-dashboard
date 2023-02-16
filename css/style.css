@@ -49,6 +49,10 @@ aside {
     height: 40px;
 }
 
+.content {
+    overflow-y: auto;
+}
+
 aside {
     font-size: 25px;
 }
